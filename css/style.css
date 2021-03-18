@@ -1,0 +1,281 @@
+   .container-fluid{
+       width: 98%;
+   }
+  .navbar{
+    margin-bottom: 20px;
+  }
+  #carouselExampleCaptions .carousel-inner #carouselExampleCaptions .carousel-item{
+      height: 90vh;
+  }
+  #carouselExampleCaptions .carousel-caption{
+      top: 30;
+  }
+  .d-block{
+      padding-top: 18px;
+  }
+ .carousel-caption .navbar{
+     width: 500px;
+     left: 180px;
+     right: 80px;
+     opacity: 0.7;
+  
+     margin-bottom: 20px;
+     
+ }
+ .carousel-caption p {
+     padding-left: 140px;    
+     color: rgb(255, 251, 251);
+ }
+
+
+  .main-btn{
+      background-color: rgb(36, 104, 157);
+      color: rgb(243, 243, 243);
+      text-transform: uppercase;
+      padding: 2px 2px;
+      border-radius: 50px;
+      border: 3px solid transparent;
+      transition: .5s;
+     
+  }
+  .main-btn:hover{
+      text-decoration: none;
+      color:rgb(241, 241, 250);
+      background-color: transparent;
+      border-color: rgb(132, 177, 225);
+  }
+  .carousel-indicators .active{
+    background-color: rgb(36, 104, 157);
+
+  }     
+   #about-list{
+      list-style: none;
+      padding-left: 10px;
+     
+  }
+  #about-list li{
+      line-height: 30px;
+  }
+  #about-list i{
+      color: #65daf9;
+      margin-right: 15px;
+  }
+  .fas{
+      padding-right: 2px;
+  }
+  .col-12 {
+      padding-bottom: 20px;
+  }
+ 
+
+  /*Sobre a Igreja*/
+
+  #about-area{
+      background-color: #f9f9f9;
+  }
+  .titulo-card{
+      color: #444;
+      text-align: center; 
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      padding-bottom: 20px;
+      padding-top: 40px;
+     
+  }
+  .titulo-card::after{
+      content: "";
+      width: 150px;
+      height: 3px;
+      background: currentColor;
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px;
+    
+      
+  }
+  .about-title {
+      text-align: center;
+      font-size: 17px;
+      color: #444;
+      text-transform: uppercase;
+      font-weight: bold;
+    
+      
+  }
+  .sobre{
+      
+    text-align: justify;
+  }
+  
+  .service-box{
+      text-align: center;
+      margin-bottom: 50px;
+  }
+  .service-box i, .service-box h4{
+      transition: .5s;
+  }
+  .service-box i{
+      font-size: 36px;
+      margin-bottom: 20px;
+      color:#4446;
+  }
+  .service-box h4{
+      font-size: 24px;
+      margin-bottom: 20px;
+  }
+  .service-box:hover > i, .service-box:hover > h4{
+      color: #65daf9;
+  }
+  #contact-area{
+      margin-top: 40px;
+  }
+
+
+
+  /*Contatos*/
+  .contact-box{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .i{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color:#4446;
+}
+.contact-box:hover{
+    color: #65daf9;
+}
+.contact-title3{
+    font-size: 20px;
+}
+ 
+  
+  /*Dados*/
+  .circle-box div{
+      padding: 0 40px;
+
+  }
+  .progressbar-text{
+      font-weight: bold;
+      font-size: 32px;
+  }
+  #data-area p{
+      color: #fff;
+      text-align: center;
+      font-size: 26px;
+      margin-top: 20px;
+  }
+
+
+
+  /*Informação da igreja*/
+  #team-area{
+      align-items: center;
+  }  
+  .main-title{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 20px;
+
+  }
+  .main-title::after{
+    content: "";
+    width: 200px;
+    height: 3px;
+    background: currentColor;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+  
+    
+  }
+  
+  .card-title{
+    color: rgb(58, 153, 225);
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+  }
+  .card-text{
+    color: black;
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+  }
+  .card{
+    width: 300px;
+    height: 200px;
+    transition: width 3s;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    margin-right: 1100px;
+    padding: 20px;
+    margin-left: 10px;
+    
+  }
+
+
+
+ 
+
+  /*Mais Notícias*/
+
+  #apply-area{
+      
+      margin-bottom: 200px;
+  }
+  #apply-area,.container-fluid, #apply-area .row{
+      height: 100%;
+  }
+  #apply-area .apply-box{
+      text-align: center;
+      padding: 70px 50px;
+  }
+
+  
+  .row h4{
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 20px;
+    padding-top: 40px;
+ }
+ .row p{
+     
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    
+ }
+ 
+  #apply-btn{
+     
+      height: auto;
+      width: 130px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 20px;
+      background-color: rgb(36, 104, 157);
+      color: rgb(243, 243, 243);
+      border-radius: 50px;
+      border: 3px solid transparent;
+      transition: .5s;
+  }
+  #apply-btn:hover{
+    text-decoration: none;
+    color:rgb(66, 155, 250);
+    background-color: transparent;
+    border-color: rgb(132, 177, 225);
+}
+footer{
+ 
+    margin-top: 50px;
+}
+/*Responsivel*/
+@media(max-width:768px){
+
+}

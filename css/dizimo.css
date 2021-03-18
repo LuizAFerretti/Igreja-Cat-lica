@@ -1,0 +1,20 @@
+.imagem{
+    
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+.texto{
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: larger;
+    
+}
+p{
+    margin-left: 30px;
+}
+footer{
+ 
+    margin-top: 50px;
+}
